@@ -1,5 +1,9 @@
 'use strict';
- 
+
+juegoahorcado();
+
+function juegoahorcado() {
+
 let palabra = "MARIPOSA";
 let palabraOculta = "";
 let intentos = 6;
@@ -31,3 +35,5 @@ while (intentos > 0) {
         alert("¡Incorrecto! Intentos restantes: " + intentos);
     }
 }
+}
+
